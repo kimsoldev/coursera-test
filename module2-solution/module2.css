@@ -1,0 +1,111 @@
+html {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    min-width: 300px;
+}
+
+img {
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 1.75em;
+    font-weight: 600;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:0;
+    padding:0px;
+}
+
+li {
+    width: 31%;
+    border: 1px solid black;
+    border-width: thick;
+    position: relative;
+    background-color: rgb(228, 228, 228);
+}
+
+.card {
+}
+
+
+.incard_title {
+    border: 1px solid black;
+    border-style: none none solid solid;
+    border-width: thick;
+    display: inline-block;
+    position: absolute;
+    right:0;
+    top:0;
+    font-size: 1.25em;
+    font-weight:600;
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    color: white;
+
+}
+
+.bg1 {
+    background-color: rgb(247, 185, 205);
+}
+
+.bg2 {
+    background-color: rgb(206, 66, 113)
+}
+
+.bg3 {
+    background-color: rgb(170, 16, 67);
+}
+
+.incard_text {
+    margin: 20px;
+    font-size: 1em
+}
+
+/* You must implement the following breakpoints that will be considered desktop, tablet, and mobile.
+ The browser should display a desktop version of the site when the width of the browser window is 992px and above.
+  Tablet view should appear only if the width of the browser window is between 768px and 991px, inclusively.
+   Mobile view should appear only if the width of the browser is equal to or less than 767px.
+
+ */
+
+ @media screen and (min-width: 991px) {
+
+  }
+
+ @media (min-width: 768px) and (max-width: 991px) {
+    li {
+        margin-bottom: 1.5vw;
+    }
+
+    ul li.card1 {
+        width:48%;
+    }
+
+    ul li.card2 {
+        width:100%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    li {
+        margin-bottom: 25px;
+    }
+
+    ul li.card {
+        width: 100%;
+    }
+
+}
