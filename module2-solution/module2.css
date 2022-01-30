@@ -16,7 +16,6 @@ h1 {
     font-weight: 600;
 }
 
-
 ul {
     list-style: none;
     display: flex;
@@ -99,7 +98,6 @@ li {
 
 
 @media screen and (max-width: 768px) {
-
     li {
         margin-bottom: 25px;
     }
@@ -107,5 +105,4 @@ li {
     ul li.card {
         width: 100%;
     }
-
 }
