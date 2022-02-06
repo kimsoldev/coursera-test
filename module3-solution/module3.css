@@ -24,18 +24,13 @@ ul.text li {
     margin : 40px;
 }
 
-.header .navbar li.nav-item a.nav-link {
 
-}
 
 .header .navbar li.nav-item a.nav-link: hover {
     color: white;
     text-decoration: underline; 
 }
 
-.navbar {
-    color: white !important;
-}
 
 span.navbar-toggler-icon {
     color: white;
