@@ -1,7 +1,13 @@
-* {
-    font-family: Karla;
-    font-size: 20px;
 
+
+
+html {
+    font-size: 20px;
+    min-width: 300px;
+}
+
+body {
+    font-family: 'Source Serif 4', 'Open Sans Condensed' !important;
 }
 
 .title {
@@ -16,4 +22,11 @@ ul.text li {
     height: auto;
     padding : 50px;
     margin-top : 50px;
+}
+
+.header .navbar li.nav-item a.nav-link {
+    color: grey;
+}
+
+div.container-fluid {
 }
