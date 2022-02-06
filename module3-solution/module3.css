@@ -1,5 +1,7 @@
 
-
+* {
+    box-sizing: border-box;
+}
 
 html {
     font-size: 20px;
@@ -38,4 +40,12 @@ span.navbar-toggler-icon {
 
 h1 {
     font-weight: bold;
+    margin: 40px;
+}
+
+div.row div div.bgc {
+    padding: 10px;
+    background-color: rgb(196, 196, 196);
+    border-radius: 20px;
+    margin: 10px;
 }
