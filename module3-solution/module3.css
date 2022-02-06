@@ -44,7 +44,7 @@ h1 {
 
 div.row div div.bgc {
     padding: 10px;
-    background-color: rgb(196, 196, 196);
+    background-color: rgb(196, 196, 196) !important;
     border-radius: 20px;
     margin: 10px;
 }
