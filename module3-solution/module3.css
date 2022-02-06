@@ -20,13 +20,27 @@ ul.text {
 
 ul.text li {
     height: auto;
-    padding : 50px;
-    margin-top : 50px;
+    padding : 40px;
+    margin : 40px;
 }
 
 .header .navbar li.nav-item a.nav-link {
-    color: grey;
+
 }
 
-div.container-fluid {
+.header .navbar li.nav-item a.nav-link: hover {
+    color: white;
+    text-decoration: underline; 
+}
+
+.navbar {
+    color: white !important;
+}
+
+span.navbar-toggler-icon {
+    color: white;
+}
+
+h1 {
+    font-weight: bold;
 }
