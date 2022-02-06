@@ -1,0 +1,19 @@
+* {
+    font-family: Karla;
+    font-size: 20px;
+
+}
+
+.title {
+    margin: 30px;
+}
+
+ul.text {
+    list-style: none;
+}
+
+ul.text li {
+    height: auto;
+    padding : 50px;
+    margin-top : 50px;
+}
